@@ -1,0 +1,40 @@
+/* .nav-item:hover{
+    text-decoration:underline ;
+} */
+.nav-box{
+   border-bottom: 1px solid rgb(42, 40, 40);
+}
+.nav-link.active{
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+}
+
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+.social-icons i{
+    font-size: 25px;
+    margin-right: 20px; 
+    color: black;
+}
+
+.social-icons i:hover{
+    color: red;
+}     
+.hero{
+    background-image: url("../assets/bg-ice.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+.hero2{
+    background-image: url("../assets/bg-ice2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     height: 90vh;
+}
